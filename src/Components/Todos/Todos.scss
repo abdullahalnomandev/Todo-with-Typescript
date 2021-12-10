@@ -1,0 +1,48 @@
+.todos {
+    width: 40%;
+    background-color: #fdfffe;
+    margin: auto;
+    margin-top: 7%;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 14px 16px 28px #ddd;
+
+
+    input[type="text"] {
+        width: 90%;
+        padding: 6px 9px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        max-width: 100%;
+    }
+
+    .add-button {
+        width: 7%;
+        font-size: 20px;
+        font-weight: 900;
+        padding: -12px -12px;
+        background-color: #8e4ae7;
+        color: #ffff;
+        border-radius: 2px;
+        border: none;
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: -7px;
+    }
+    .clear-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            background-color: #8e4ae7;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+
+        }
+    }
+}

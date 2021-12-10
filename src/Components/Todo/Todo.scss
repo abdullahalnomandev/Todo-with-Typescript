@@ -1,0 +1,32 @@
+.todo {
+    p {
+        color: black;
+        padding: 9px;
+        max-width: 80%;
+        margin-top: 10px;
+        font-weight: 400;
+        border-radius: 7px;
+    }
+    .singleItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ddd;
+        margin: 10px;
+    }
+    .icon {
+        margin-right: 10px;
+        box-sizing: border-box;
+        color: red;
+        cursor: pointer;
+    }
+    .item{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        input{
+            margin-left: -23px;
+        }
+    }
+}
